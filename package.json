@@ -1,0 +1,22 @@
+{
+  "name": "dropcaixabackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TomasMeneses/dropcaixabackend.git",
+  "author": "Tomás Meneses <tomasmeneses22@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.7",
+    "multer": "^1.4.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
